@@ -1,0 +1,33 @@
+﻿<section id="consultation" class="jumbotron bg-light">
+    <div class="container" style="padding-top: 60px; padding-bottom: 60px;">
+        <h3 class="jumbotron-heading text-center">
+            <strong>
+                Бесплатная консультация
+            </strong>
+        </h3>
+    </div>
+    <div class="container " style=" padding-bottom: 60px;">
+        <form asp-controller="Email" asp-action="SendEmail" id="email_form" class="shadow-sm p-3 mb-5 bg-white rounded" style="margin-left: 25%; margin-right: 25%;">
+            <div class="form-group">
+                <label for="validationName" class="form-label">Имя</label>
+                <input type="text" class="form-control" id="validationName" name="validationName" required>
+                <div class="valid-tooltip">
+                    Все хорошо!
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="validationPhone" class="form-label">Телефон</label>
+                <input type="tel" class="form-control tel" id="validationPhone" name="validationPhone" required>
+                <div class="valid-tooltip">
+                    Все хорошо!
+                </div>
+            </div>
+            <div class="form-group form-check">
+                <input type="checkbox" class="form-check-input _req" id="exampleCheck1" name="exampleCheck1" aria-pressed="false" autocomplete="off">
+                <label class="form-check-label text-muted" for="exampleCheck1">Я соглашаюсь на обработку своих персональных данных</label>
+            </div>
+            <button type="submit" class="btn btn-primary" id="submit" disabled>Отправить</button>
+
+        </form>
+    </div>
+</section>

@@ -1,0 +1,26 @@
+﻿@model IQueryable<RealEstate>
+@{
+    RealEstate realEstate = ViewBag.RealEstate;
+
+    ViewBag.Title = realEstate.MetaTitle;
+    ViewBag.Description = realEstate.MetaDescription;
+    ViewBag.Keywords = realEstate.MetaKeywords;
+}
+
+<div>
+    @if (Model.Any())
+    {
+        <ul>
+            @foreach(RealEstate entity in Model)
+            {
+                <li>
+                    <a asp-area="" asp-controller="RealEstates" action="Index" asp-route-id="@entity.Id">
+                        <img src="~/img/@entity.TitleImagePath" alt="">
+                    </a>
+                    <p>@entity.Title</p>
+                    <p>@entity.Price</p>
+                </li>
+            }
+        </ul>
+    }
+</div>

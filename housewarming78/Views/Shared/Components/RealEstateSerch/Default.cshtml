@@ -1,0 +1,156 @@
+﻿<section id="catalog" class="jumbotron text-center bg-light">
+    <div class="container" style="padding-top: 60px; padding-bottom: 60px;">
+        <h3 class="jumbotron-heading">
+            <strong>
+                Каталог недвижимости
+            </strong>
+        </h3>
+    </div>
+    
+    <nav class="navbar navbar-expand-lg ">
+        <div class="container-fluid">
+            <div class="navbar-collapse">
+                <ul class="navbar-nav mx-auto">
+                    <li class="nav-item">
+                        <div class="form-group-text ">
+                            <input type="text" class="form-control address" placeholder="адрес" aria-label="адрес" name="addr" id="addr" />
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <div class="form-group-text  ">
+                            <input type="number" class="form-control" placeholder="цена от" aria-label="цена от" name="priceTo" id="priceTo">
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <div class="form-group-text ">
+                            <input type="number" class="form-control" placeholder="цена до" aria-label="цена до" name="priceDo" id="priceDo">
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <div class="form-control text-start">
+                            <div class="dropdown ">
+                                <label class="dropdown-toggle text-muted" type="button" id="dropdownMenuRooms" data-bs-toggle="dropdown" aria-expanded="false">Комнат</label>
+                                <div class="dropdown-menu dropdown-menu-start" aria-labelledby="dropdownMenuRooms" style="width: auto;">
+                                    <div class="container">
+                                        <div class="row row-cols-6 gx-5 gy-2">
+                                            <div class="col">
+                                                <input type="checkbox" class="btn-check" id="CheckRooms-1" autocomplete="off">
+                                                <label class="btn btn-outline-primary" for="CheckRooms-1">1</label><br>
+                                            </div>
+                                            <div class="col">
+                                                <input type="checkbox" class="btn-check" id="CheckRooms-2" autocomplete="off">
+                                                <label class="btn btn-outline-primary" for="CheckRooms-2">2</label><br>
+                                            </div>
+                                            <div class="col">
+                                                <input type="checkbox" class="btn-check" id="CheckRooms-3" autocomplete="off">
+                                                <label class="btn btn-outline-primary" for="CheckRooms-3">3</label><br>
+                                            </div>
+                                            <div class="col">
+                                                <input type="checkbox" class="btn-check" id="CheckRooms-4" autocomplete="off">
+                                                <label class="btn btn-outline-primary" for="CheckRooms-4">4</label><br>
+                                            </div>
+                                            <div class="col">
+                                                <input type="checkbox" class="btn-check" id="CheckRooms-5" autocomplete="off">
+                                                <label class="btn btn-outline-primary" for="CheckRooms-5">5</label><br>
+                                            </div>
+                                            <div class="col">
+                                                <input type="checkbox" class="btn-check" id="CheckRooms-6" autocomplete="off">
+                                                <label class="btn btn-outline-primary" for="CheckRooms-6">6+</label><br>
+                                            </div>
+                                        </div>
+
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="checkbox" value="" id="CheckRoom">
+                                            <label class="form-check-label" for="CheckRoom">
+                                                Комната
+                                            </label>
+                                        </div>
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="checkbox" value="" id="CheckStudio">
+                                            <label class="form-check-label" for="CheckStudio">
+                                                Студия
+                                            </label>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <div class="form-control text-start">
+                            <div class="dropdown ">
+                                <label class="dropdown-toggle text-muted" type="button" id="dropdownMenuType" data-bs-toggle="dropdown" aria-expanded="false">Тип</label>
+                                <div class="dropdown-menu dropdown-menu-start" aria-labelledby="dropdownMenuType" style="width: auto;">
+                                    <div class="container">
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="checkbox" id="CheckType-NewBuilding" name="CheckType-NewBuilding">
+                                            <label class="form-check-label" for="CheckType-NewBuilding">
+                                                Новостройка
+                                            </label>
+                                        </div>
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="checkbox" id="CheckType-OldBuilding" name="CheckType-OldBuilding">
+                                            <label class="form-check-label" for="CheckType-OldBuilding">
+                                                Вторичка
+                                            </label>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <div class="form-group-text col text-start p-0">
+                            <button class="btn btn-outline-secondary" type="button" onclick="loadView()">Найти</button>
+                        </div>
+                        <script>
+                            function loadView() {
+                                var inputaddr = $("#addr").val();
+                                var inputpriceto = $("#priceTo").val();
+                                var inputpricedo = $("#priceDo").val();
+
+                                var checkorooms1 = $("#CheckRooms-1").prop('checked');
+                                var checkorooms2 = $("#CheckRooms-2").prop('checked');
+                                var checkorooms3 = $("#CheckRooms-3").prop('checked');
+                                var checkorooms4 = $("#CheckRooms-4").prop('checked');
+                                var checkorooms5 = $("#CheckRooms-5").prop('checked');
+                                var checkorooms6 = $("#CheckRooms-6").prop('checked');
+
+                                var checkoroom = $("#CheckRoom").prop('checked');
+                                var checkstudio = $("#CheckStudio").prop('checked');
+
+                                var checknewbuilding = $("#CheckType-NewBuilding").prop('checked');
+                                var checkoldbuilding = $("#CheckType-OldBuilding").prop('checked');
+                                
+                                // Загружаем представление с помощью AJAX
+                                $.get('/Serch/Serch', { addr: inputaddr, 
+                                    priceTo: inputpriceto, 
+                                    priceDo: inputpricedo, 
+                                    rooms1: checkorooms1, 
+                                    rooms2: checkorooms2, 
+                                    rooms3: checkorooms3,
+                                    rooms4: checkorooms4,
+                                    rooms5: checkorooms5,
+                                    rooms6: checkorooms6,
+                                    room: checkoroom,
+                                    studio: checkstudio,
+                                    newBuilding: checknewbuilding, 
+                                    oldBuilding: checkoldbuilding }, 
+                                    function (data) {
+                                    // Вставляем загруженное представление в конкретное место 
+                                    $('#content').html(data);
+                                });
+                            }
+                        </script>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container" style="padding-bottom: 60px;">
+        <div id="content">
+            @(await Component.InvokeAsync<SerchViewComponent>())
+        </div>
+    </div>
+</section>

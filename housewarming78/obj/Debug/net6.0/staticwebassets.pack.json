@@ -1,0 +1,365 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\nikit\\Desktop\\housewarming78\\housewarming78\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "C:\\Users\\nikit\\Desktop\\housewarming78\\housewarming78\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\nikit\\Desktop\\housewarming78\\housewarming78\\wwwroot\\img\\05A1F55556D344514C3008DBF1941322\\architecture.jpg",
+      "PackagePath": "staticwebassets\\img\\05A1F55556D344514C3008DBF1941322\\architecture.jpg"
+    },
+    {
+      "Id": "C:\\Users\\nikit\\Desktop\\housewarming78\\housewarming78\\wwwroot\\img\\05A1F55556D344514C3008DBF1941322\\beautiful-colorful-house-under-blue-sky.jpg",
+      "PackagePath": "staticwebassets\\img\\05A1F55556D344514C3008DBF1941322\\beautiful-colorful-house-under-blue-sky.jpg"
+    },
+    {
+      "Id": "C:\\Users\\nikit\\Desktop\\housewarming78\\housewarming78\\wwwroot\\img\\05A1F55556D344514C3008DBF1941322\\cinematic-city-street-building.jpg",
+      "PackagePath": "staticwebassets\\img\\05A1F55556D344514C3008DBF1941322\\cinematic-city-street-building.jpg"
+    },
+    {
+      "Id": "C:\\Users\\nikit\\Desktop\\housewarming78\\housewarming78\\wwwroot\\img\\05A1F55556D344514C3008DBF1941322\\low-angle-of-massive-concrete-building-in-the-city.jpg",
+      "PackagePath": "staticwebassets\\img\\05A1F55556D344514C3008DBF1941322\\low-angle-of-massive-concrete-building-in-the-city.jpg"
+    },
+    {
+      "Id": "C:\\Users\\nikit\\Desktop\\housewarming78\\housewarming78\\wwwroot\\img\\05A1F55556D344514C3008DBF1941322\\sky-and-building-classic-style.jpg",
+      "PackagePath": "staticwebassets\\img\\05A1F55556D344514C3008DBF1941322\\sky-and-building-classic-style.jpg"
+    },
+    {
+      "Id": "C:\\Users\\nikit\\Desktop\\housewarming78\\housewarming78\\wwwroot\\img\\05A1F55556D344514C3008DBF1941322\\skyscraper-building-in-singapore.jpg",
+      "PackagePath": "staticwebassets\\img\\05A1F55556D344514C3008DBF1941322\\skyscraper-building-in-singapore.jpg"
+    },
+    {
+      "Id": "C:\\Users\\nikit\\Desktop\\housewarming78\\housewarming78\\wwwroot\\img\\05A1F55556D344514C3008DBF1941322\\view-of-new-houses-in-suburbs.jpg",
+      "PackagePath": "staticwebassets\\img\\05A1F55556D344514C3008DBF1941322\\view-of-new-houses-in-suburbs.jpg"
+    },
+    {
+      "Id": "C:\\Users\\nikit\\Desktop\\housewarming78\\housewarming78\\wwwroot\\img\\1645233174_16-kartinkin-net-p-nedvizhimost-kartinki-17.jpg",
+      "PackagePath": "staticwebassets\\img\\1645233174_16-kartinkin-net-p-nedvizhimost-kartinki-17.jpg"
+    },
+    {
+      "Id": "C:\\Users\\nikit\\Desktop\\housewarming78\\housewarming78\\wwwroot\\img\\20945137.jpg",
+      "PackagePath": "staticwebassets\\img\\20945137.jpg"
+    },
+    {
+      "Id": "C:\\Users\\nikit\\Desktop\\housewarming78\\housewarming78\\wwwroot\\img\\407BBDFB8C2242FAE65208DBF49F4B9F\\beautiful-colorful-house-under-blue-sky.jpg",
+      "PackagePath": "staticwebassets\\img\\407BBDFB8C2242FAE65208DBF49F4B9F\\beautiful-colorful-house-under-blue-sky.jpg"
+    },
+    {
+      "Id": "C:\\Users\\nikit\\Desktop\\housewarming78\\housewarming78\\wwwroot\\img\\407BBDFB8C2242FAE65208DBF49F4B9F\\cinematic-city-street-building.jpg",
+      "PackagePath": "staticwebassets\\img\\407BBDFB8C2242FAE65208DBF49F4B9F\\cinematic-city-street-building.jpg"
+    },
+    {
+      "Id": "C:\\Users\\nikit\\Desktop\\housewarming78\\housewarming78\\wwwroot\\img\\407BBDFB8C2242FAE65208DBF49F4B9F\\city-background-panoramic-view.jpg",
+      "PackagePath": "staticwebassets\\img\\407BBDFB8C2242FAE65208DBF49F4B9F\\city-background-panoramic-view.jpg"
+    },
+    {
+      "Id": "C:\\Users\\nikit\\Desktop\\housewarming78\\housewarming78\\wwwroot\\img\\407BBDFB8C2242FAE65208DBF49F4B9F\\contemporary-building-in-blur.jpg",
+      "PackagePath": "staticwebassets\\img\\407BBDFB8C2242FAE65208DBF49F4B9F\\contemporary-building-in-blur.jpg"
+    },
+    {
+      "Id": "C:\\Users\\nikit\\Desktop\\housewarming78\\housewarming78\\wwwroot\\img\\407BBDFB8C2242FAE65208DBF49F4B9F\\sky-and-building-classic-style.jpg",
+      "PackagePath": "staticwebassets\\img\\407BBDFB8C2242FAE65208DBF49F4B9F\\sky-and-building-classic-style.jpg"
+    },
+    {
+      "Id": "C:\\Users\\nikit\\Desktop\\housewarming78\\housewarming78\\wwwroot\\img\\5805576AE2604A90ECDE08DBF498ED16\\beautiful-colorful-house-under-blue-sky.jpg",
+      "PackagePath": "staticwebassets\\img\\5805576AE2604A90ECDE08DBF498ED16\\beautiful-colorful-house-under-blue-sky.jpg"
+    },
+    {
+      "Id": "C:\\Users\\nikit\\Desktop\\housewarming78\\housewarming78\\wwwroot\\img\\5805576AE2604A90ECDE08DBF498ED16\\city-background-panoramic-view.jpg",
+      "PackagePath": "staticwebassets\\img\\5805576AE2604A90ECDE08DBF498ED16\\city-background-panoramic-view.jpg"
+    },
+    {
+      "Id": "C:\\Users\\nikit\\Desktop\\housewarming78\\housewarming78\\wwwroot\\img\\5805576AE2604A90ECDE08DBF498ED16\\contemporary-building-in-blur.jpg",
+      "PackagePath": "staticwebassets\\img\\5805576AE2604A90ECDE08DBF498ED16\\contemporary-building-in-blur.jpg"
+    },
+    {
+      "Id": "C:\\Users\\nikit\\Desktop\\housewarming78\\housewarming78\\wwwroot\\img\\5805576AE2604A90ECDE08DBF498ED16\\low-angle-of-massive-concrete-building-in-the-city.jpg",
+      "PackagePath": "staticwebassets\\img\\5805576AE2604A90ECDE08DBF498ED16\\low-angle-of-massive-concrete-building-in-the-city.jpg"
+    },
+    {
+      "Id": "C:\\Users\\nikit\\Desktop\\housewarming78\\housewarming78\\wwwroot\\img\\abstract-architecture-and-building.jpg",
+      "PackagePath": "staticwebassets\\img\\abstract-architecture-and-building.jpg"
+    },
+    {
+      "Id": "C:\\Users\\nikit\\Desktop\\housewarming78\\housewarming78\\wwwroot\\img\\central-business-district-in-singapore.jpg",
+      "PackagePath": "staticwebassets\\img\\central-business-district-in-singapore.jpg"
+    },
+    {
+      "Id": "C:\\Users\\nikit\\Desktop\\housewarming78\\housewarming78\\wwwroot\\img\\close-up-low-angle-view-of-skyscraper-under-construction.jpg",
+      "PackagePath": "staticwebassets\\img\\close-up-low-angle-view-of-skyscraper-under-construction.jpg"
+    },
+    {
+      "Id": "C:\\Users\\nikit\\Desktop\\housewarming78\\housewarming78\\wwwroot\\img\\contemporary-building-in-blur.jpg",
+      "PackagePath": "staticwebassets\\img\\contemporary-building-in-blur.jpg"
+    },
+    {
+      "Id": "C:\\Users\\nikit\\Desktop\\housewarming78\\housewarming78\\wwwroot\\img\\finance-financial-light-city-exterior.jpg",
+      "PackagePath": "staticwebassets\\img\\finance-financial-light-city-exterior.jpg"
+    },
+    {
+      "Id": "C:\\Users\\nikit\\Desktop\\housewarming78\\housewarming78\\wwwroot\\img\\img1.jpg",
+      "PackagePath": "staticwebassets\\img\\img1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\nikit\\Desktop\\housewarming78\\housewarming78\\wwwroot\\img\\low-angle-shot-of-a-facade-of-a-white-modern-building-under-a-blue-clear-sky.jpg",
+      "PackagePath": "staticwebassets\\img\\low-angle-shot-of-a-facade-of-a-white-modern-building-under-a-blue-clear-sky.jpg"
+    },
+    {
+      "Id": "C:\\Users\\nikit\\Desktop\\housewarming78\\housewarming78\\wwwroot\\js\\addr.js",
+      "PackagePath": "staticwebassets\\js\\addr.js"
+    },
+    {
+      "Id": "C:\\Users\\nikit\\Desktop\\housewarming78\\housewarming78\\wwwroot\\js\\tel.js",
+      "PackagePath": "staticwebassets\\js\\tel.js"
+    },
+    {
+      "Id": "C:\\Users\\nikit\\Desktop\\housewarming78\\housewarming78\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "C:\\Users\\nikit\\Desktop\\housewarming78\\housewarming78\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "C:\\Users\\nikit\\Desktop\\housewarming78\\housewarming78\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "C:\\Users\\nikit\\Desktop\\housewarming78\\housewarming78\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "C:\\Users\\nikit\\Desktop\\housewarming78\\housewarming78\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\nikit\\Desktop\\housewarming78\\housewarming78\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\nikit\\Desktop\\housewarming78\\housewarming78\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\nikit\\Desktop\\housewarming78\\housewarming78\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\nikit\\Desktop\\housewarming78\\housewarming78\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\nikit\\Desktop\\housewarming78\\housewarming78\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "C:\\Users\\nikit\\Desktop\\housewarming78\\housewarming78\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "C:\\Users\\nikit\\Desktop\\housewarming78\\housewarming78\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "C:\\Users\\nikit\\Desktop\\housewarming78\\housewarming78\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\nikit\\Desktop\\housewarming78\\housewarming78\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\nikit\\Desktop\\housewarming78\\housewarming78\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\nikit\\Desktop\\housewarming78\\housewarming78\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\nikit\\Desktop\\housewarming78\\housewarming78\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\nikit\\Desktop\\housewarming78\\housewarming78\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "C:\\Users\\nikit\\Desktop\\housewarming78\\housewarming78\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "C:\\Users\\nikit\\Desktop\\housewarming78\\housewarming78\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "C:\\Users\\nikit\\Desktop\\housewarming78\\housewarming78\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\nikit\\Desktop\\housewarming78\\housewarming78\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\nikit\\Desktop\\housewarming78\\housewarming78\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\nikit\\Desktop\\housewarming78\\housewarming78\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\nikit\\Desktop\\housewarming78\\housewarming78\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\nikit\\Desktop\\housewarming78\\housewarming78\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\Users\\nikit\\Desktop\\housewarming78\\housewarming78\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "C:\\Users\\nikit\\Desktop\\housewarming78\\housewarming78\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\nikit\\Desktop\\housewarming78\\housewarming78\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\nikit\\Desktop\\housewarming78\\housewarming78\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\nikit\\Desktop\\housewarming78\\housewarming78\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\nikit\\Desktop\\housewarming78\\housewarming78\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\nikit\\Desktop\\housewarming78\\housewarming78\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\nikit\\Desktop\\housewarming78\\housewarming78\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "C:\\Users\\nikit\\Desktop\\housewarming78\\housewarming78\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "C:\\Users\\nikit\\Desktop\\housewarming78\\housewarming78\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "C:\\Users\\nikit\\Desktop\\housewarming78\\housewarming78\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\nikit\\Desktop\\housewarming78\\housewarming78\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "C:\\Users\\nikit\\Desktop\\housewarming78\\housewarming78\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "C:\\Users\\nikit\\Desktop\\housewarming78\\housewarming78\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "C:\\Users\\nikit\\Desktop\\housewarming78\\housewarming78\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\nikit\\Desktop\\housewarming78\\housewarming78\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "C:\\Users\\nikit\\Desktop\\housewarming78\\housewarming78\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "C:\\Users\\nikit\\Desktop\\housewarming78\\housewarming78\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\nikit\\Desktop\\housewarming78\\housewarming78\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\nikit\\Desktop\\housewarming78\\housewarming78\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\nikit\\Desktop\\housewarming78\\housewarming78\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "C:\\Users\\nikit\\Desktop\\housewarming78\\housewarming78\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "C:\\Users\\nikit\\Desktop\\housewarming78\\housewarming78\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "C:\\Users\\nikit\\Desktop\\housewarming78\\housewarming78\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "C:\\Users\\nikit\\Desktop\\housewarming78\\housewarming78\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "C:\\Users\\nikit\\Desktop\\housewarming78\\housewarming78\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "C:\\Users\\nikit\\Desktop\\housewarming78\\housewarming78\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "C:\\Users\\nikit\\Desktop\\housewarming78\\housewarming78\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\nikit\\Desktop\\housewarming78\\housewarming78\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "C:\\Users\\nikit\\Desktop\\housewarming78\\housewarming78\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "C:\\Users\\nikit\\Desktop\\housewarming78\\housewarming78\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.build.housewarming78.props",
+      "PackagePath": "build\\housewarming78.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildMultiTargeting.housewarming78.props",
+      "PackagePath": "buildMultiTargeting\\housewarming78.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildTransitive.housewarming78.props",
+      "PackagePath": "buildTransitive\\housewarming78.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.housewarming78.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

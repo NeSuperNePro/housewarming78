@@ -1,0 +1,15 @@
+﻿<!DOCTYPE html>
+<html lang="ru">
+<head>
+    @await Html.PartialAsync("MetatagsPartial");
+    @await Html.PartialAsync("CssPartial");
+    @await Html.PartialAsync("ScriptPartial");
+</head>
+<body>
+    <main role="main" style="padding-top: 6px">
+        @RenderBody();
+    </main>
+    @await Html.PartialAsync("FooterPartial");
+    
+</body>
+</html>

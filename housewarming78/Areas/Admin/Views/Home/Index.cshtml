@@ -1,0 +1,52 @@
+﻿@using housewarming78.Model.ViewComponents;
+
+@model IQueryable<RealEstate>
+@{
+    string strTitle = "Панель администратора";
+    ViewBag.Title = strTitle;
+}
+
+<div class="jumbotron">
+    <div class="container" style="padding-top: 60px; padding-bottom: 60px;">
+        <h1 class="jumbotron-heading text-center">
+            <strong>
+                @strTitle
+            </strong>
+        </h1>
+    </div>
+    <div class="container bg-light border p-2 rounded">
+        <div class="row">
+            <div class="col">
+                <a type="button" class="btn btn-primary" asp-area="Admin" asp-controller="RealEstates" asp-action="Edit" asp-route-id="">Добавить услугу</a>
+            </div>
+            <div class="col text-end">
+                <form asp-area="" asp-controller="Account" asp-action="Logout" method="post">
+                    <button type="submit" class="btn btn-primary">Выйти</button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <div class="container pt-5 pb-5">
+        @if (Model.Any())
+        {
+            <div>
+                @foreach (RealEstate entity in Model)
+                {
+                    <div>
+                        <a asp-area="Admin" asp-controller="RealEstates" asp-action="Edit" asp-route-id="@entity.Id">редактировать</a>
+                        |
+                        <form style="display: inline-block;" id="form-@entity.Id" asp-area="Admin" asp-controller="RealEstates" asp-action="Delete" method="post">
+                            <input type="hidden" name="id" value="@entity.Id">
+                            <a href="#" onclick="document.getElementById('form-@entity.Id').submit();">удалить</a>
+                        </form>
+                        |
+                        <a asp-area="" asp-controller="Services" asp-action="Index" asp-route-id="@entity.Id">
+                            @($"{entity.Title}")
+                        </a>
+                    </div>
+                }
+            </div>
+        }
+    </div>
+</div>

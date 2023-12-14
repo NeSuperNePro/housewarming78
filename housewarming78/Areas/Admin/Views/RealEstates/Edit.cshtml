@@ -1,0 +1,222 @@
+﻿@model RealEstate
+@{
+    string strTitle = "Редактировать запись";
+    ViewBag.Title = strTitle;
+}
+
+<div class="jumbotron bg-light">
+    <div class="container" style="padding-top: 60px; padding-bottom: 60px;">
+        <h1 class="jumbotron-heading text-center">
+            <strong>
+                @strTitle
+            </strong>
+        </h1>
+    </div>
+    <div class="container bg-light pt-5 pb-5">
+        <form enctype="multipart/form-data" asp-area="Admin" asp-controller="RealEstates" asp-action="Edit" method="post" class="shadow-sm p-3 mb-5 bg-white rounded">
+            <input type="hidden" asp-for="Id" />
+            <input type="hidden" asp-for="DateAdded" />
+            <input type="hidden" asp-for="TitleImagePath" />
+            <input type="hidden" asp-for="ImagesPaths" />
+
+            <div asp-validation-summary="All"></div>
+
+            <div class="form-group mb-3">
+                <label asp-for="Address" class="form-label"></label>
+                <input asp-for="Address" class="form-control address" />
+                <span asp-validation-for="Address"></span>
+            </div>
+
+            <div class="form-group mb-3">
+                <label asp-for="Price" class="form-label"></label>
+                <input asp-for="Price" class="form-control" />
+                <span asp-validation-for="Price"></span>
+            </div>
+
+            <div class="form-group mb-3">
+                <label asp-for="TitleImagePath" class="form-label"></label>
+                <input  type="file" name="titleImageFile" id="titleImageFile" class="form-control">
+                <div> 
+                    <div class="container">  
+                        @if (Model != null)
+                        {
+                            <img src="~/img/@Model.Id.ToString("N").ToUpper()/@Model.TitleImagePath" class="img-fluid img-thumbnail" alt="@Model.TitleImagePath">
+                        }
+                    </div>
+                </div>
+            </div>
+
+            <div class="form-group mb-3">
+                <label asp-for="ImagesPaths" class="form-label"></label>
+                <input  type="file" name="imagesFiles" id="imagesFiles" min="1" max="9999" multiple class="form-control" />
+                <div>
+                    @if (Model != null)
+                    {
+                        <div class="container">
+                            <div class="row row-cols-4">
+                                @foreach (string path in Model.ImagesPaths)
+                                {
+                                    if (path == "System.Collections.Generic.List`1[System.String]") continue;
+                                    <div class="col">
+                                        <img src="~/img/@Model.Id.ToString("N").ToUpper()/@path" class="img-fluid img-thumbnail" alt="@path">
+                                    </div>
+                                }
+                            </div>
+                        </div>
+                    }
+                    
+                    
+                </div>
+            </div>
+
+            <div class="form-group mb-3">
+                <label asp-for="Text" class="form-label"></label>
+                <textarea asp-for="Text" class="form-control"></textarea>
+                <span asp-validation-for="Text"></span>
+            </div>
+
+
+
+            <h1 class="jumbotron-heading text-center">
+                <strong>
+                    О квртире
+                </strong>
+            </h1>
+
+            <div class="form-group mb-3">
+                <label asp-for="HousingType" class="form-label"></label>
+                <select asp-for="HousingType" class="form-select">
+                    <option >Новостройка</option>
+                    <option >Вторичка</option>
+                </select>
+                <span asp-validation-for="HousingType"></span>
+            </div>
+
+            <div class="form-group mb-3">
+                <label asp-for="CountRooms" class="form-label"></label>
+                <input asp-for="CountRooms" list="countRooms" class="form-control">
+                <datalist id="countRooms">
+                    <option>Новостройка</option>
+                    <option>Вторичка</option>
+                </datalist>
+                <span asp-validation-for="CountRooms"></span>
+            </div>
+
+            <div class="form-group mb-3">
+                <label asp-for="TotalArea" class="form-label"></label>
+                <input asp-for="TotalArea" class="form-control" />
+                <span asp-validation-for="TotalArea"></span>
+            </div>
+
+            <div class="form-group mb-3">
+                <label asp-for="LivingSpace" class="form-label"></label>
+                <input asp-for="LivingSpace" class="form-control" />
+                <span asp-validation-for="LivingSpace"></span>
+            </div>
+
+            <div class="form-group mb-3">
+                <label asp-for="KitchenArea" class="form-label"></label>
+                <input asp-for="KitchenArea" class="form-control" />
+                <span asp-validation-for="KitchenArea"></span>
+            </div>
+
+            <div class="form-group mb-3">
+                <label asp-for="Bathroom" class="form-label"></label>
+                <input asp-for="Bathroom" class="form-control" />
+                <span asp-validation-for="Bathroom"></span>
+            </div>
+
+            <div class="form-group mb-3">
+                <label asp-for="ViewFromTheWindows" class="form-label"></label>
+                <input asp-for="ViewFromTheWindows" class="form-control" />
+                <span asp-validation-for="ViewFromTheWindows"></span>
+            </div>
+
+            <div class="form-group mb-3">
+                <label asp-for="Repair" class="form-label"></label>
+                <input asp-for="Repair" class="form-control" />
+                <span asp-validation-for="Repair"></span>
+            </div>
+
+            <div class="form-group mb-3">
+                <label asp-for="Floor" class="form-label"></label>
+                <input asp-for="Floor" class="form-control" />
+                <span asp-validation-for="Floor"></span>
+            </div>
+
+
+
+
+            <h1 class="jumbotron-heading text-center">
+                <strong>
+                    О доме
+                </strong>
+            </h1>
+
+            <div class="form-group mb-3">
+                <label asp-for="YearOfConstruction" class="form-label"></label>
+                <input asp-for="YearOfConstruction" class="form-control" />
+                <span asp-validation-for="YearOfConstruction"></span>
+            </div>
+
+            <div class="form-group mb-3">
+                <label asp-for="HouseType" class="form-label"></label>
+                <input asp-for="HouseType" class="form-control" />
+                <span asp-validation-for="HouseType"></span>
+            </div>
+
+            <div class="form-group mb-3">
+                <label asp-for="ConstructionSeries" class="form-label"></label>
+                <input asp-for="ConstructionSeries" class="form-control" />
+                <span asp-validation-for="ConstructionSeries"></span>
+            </div>
+
+            <div class="form-group mb-3">
+                <label asp-for="NumberOfElevators" class="form-label"></label>
+                <input asp-for="NumberOfElevators" class="form-control" />
+                <span asp-validation-for="NumberOfElevators"></span>
+            </div>
+
+            <div class="form-group mb-3">
+                <label asp-for="FloorType" class="form-label"></label>
+                <input asp-for="FloorType" class="form-control" />
+                <span asp-validation-for="FloorType"></span>
+            </div>
+
+            <div class="form-group mb-3">
+                <label asp-for="Entrances" class="form-label"></label>
+                <input asp-for="Entrances" class="form-control" />
+                <span asp-validation-for="Entrances"></span>
+            </div>
+
+            <div class="form-group mb-3">
+                <label asp-for="Heating" class="form-label"></label>
+                <input asp-for="Heating" class="form-control" />
+                <span asp-validation-for="Heating"></span>
+            </div>
+
+            <div class="form-group mb-3">
+                <label asp-for="AccidentRate" class="form-label"></label>
+                <input asp-for="AccidentRate" class="form-control" />
+                <span asp-validation-for="AccidentRate"></span>
+            </div>
+
+            <div class="form-group mb-3">
+                <label asp-for="GasSupply" class="form-label"></label>
+                <input asp-for="GasSupply" class="form-control" />
+                <span asp-validation-for="GasSupply"></span>
+            </div>
+
+            <div class="form-group mb-3">
+                <label asp-for="EnFloorsInTheHouse" class="form-label"></label>
+                <input asp-for="EnFloorsInTheHouse" class="form-control" />
+                <span asp-validation-for="EnFloorsInTheHouse"></span>
+            </div>
+
+            <button type="submit" class="btn btn-primary">Сохранить</button>
+        </form>
+    </div>
+</div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/suggestions-jquery@21.12.0/dist/js/jquery.suggestions.min.js"></script>
+<script src="~/js/addr.js"></script>

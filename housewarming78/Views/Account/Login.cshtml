@@ -1,0 +1,40 @@
+﻿@model LoginViewModel
+
+
+
+
+
+
+<div class="jumbotron bg-light">
+    <div class="container" style="padding-top: 60px; padding-bottom: 60px;">
+        <h1 class="jumbotron-heading text-center">
+            <strong>
+                Вход в личный кабинет
+            </strong>
+        </h1>
+    </div>
+    <div class="container bg-light pt-5 pb-5">
+        <form asp-area="" asp-controller="Account" asp-action="Login" method="post" asp-route-returnUrl="@ViewBag.returnUrl" class="shadow-sm p-3 mb-5 bg-white rounded">
+            <div asp-validation-summary="All" class="text-danger"></div>
+            <div class="form-group mb-3">
+                <!--<span asp-validation-for="UserName" for="UserName"></span>-->
+                <label asp-for="UserName" for="UserName" class="form-label"></label>
+                <input asp-for="UserName" id="UserName" class="form-control" />
+            </div>
+            <div class="form-group mb-3">
+                <!--<span asp-validation-for="Password" for="Password" ></span>-->
+                <label asp-for="Password" for="Password" class="form-label"></label>
+                <input asp-for="Password" id="Password" class="form-control" />
+            </div>
+            <div class="form-check">
+                <!--<span asp-validation-for="RememberMe" ></span>-->
+                <input type="checkbox" asp-for="RememberMe" id="checkboxRememberMe" class="form-check-input" type="checkbox" />
+                <label asp-for="RememberMe" for="checkboxRememberMe" class="form-check-label text-muted"></label>
+            </div>
+            <button type="submit" class="btn btn-primary">Войти</button>
+        </form>
+    </div>
+</div>
+
+
+

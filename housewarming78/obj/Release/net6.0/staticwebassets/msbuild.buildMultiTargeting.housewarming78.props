@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\housewarming78.props" />
+</Project>

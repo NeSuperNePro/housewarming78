@@ -1,0 +1,55 @@
+﻿@model IQueryable<RealEstate>
+<div class="row">
+    <p class="text-muted text-start">Найдено @Model.Count()</p>
+</div>
+
+@if (Model?.Any() == true)
+{
+
+    <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel" data-bs-interval="false">
+        <div class="carousel-inner">
+            @{
+                bool flag = true;
+                int numberElement = 0;
+                int numberPage = 0;
+                int numberElementInNumberPage = 15;
+            }
+            
+            @while (numberElement != @Model.Count())
+            {
+                <div class="carousel-item">
+                    <div class="row justify-content-md-center">
+                        @foreach (RealEstate entity in Model.Skip(numberElement))
+                        {
+                            <div class="card m-2 p-0 col-md-3 col-sm">
+                                <a asp-area="" asp-controller="Services" asp-action="Index" asp-route-id="@entity.Id" class="p-0">
+                                    <img src="~/img/@entity.Id.ToString("N").ToUpper()/@entity.TitleImagePath" class=" card-img-top d-block w-100" style="height: 300px !important;" />
+                                </a>
+                                <div class="card-body">
+                                    <h5 class="card-title text-start">@entity.Title</h5>
+                                    <p class="card-text text-start">@entity.Price₽</p>
+                                    <p class="card-text text-start">@entity.Address</p>
+                                </div>
+                               
+                            </div>
+                            numberElement = numberElement + 1;
+                            if (numberElement % numberElementInNumberPage == 0) { numberPage = numberPage + 1; break; }
+                        }
+                    </div>
+                </div>
+                if (flag)
+                {
+                    flag = !flag;
+                    <script>
+                        document.querySelector('.carousel-item').classList.add('active');
+                    </script>
+                }
+            }
+        </div>
+
+        <button class="btn btn-outline-secondary" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev"> &lt; </button>
+        <button class="btn btn-outline-secondary" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next"> &gt; </button>
+    </div>
+
+}
+                
