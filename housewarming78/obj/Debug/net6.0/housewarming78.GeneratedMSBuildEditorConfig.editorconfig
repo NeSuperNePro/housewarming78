@@ -9,85 +9,85 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = housewarming78
 build_property.RootNamespace = housewarming78
-build_property.ProjectDir = C:\Users\nikit\Desktop\housewarming78\housewarming78\
+build_property.ProjectDir = C:\Users\nikit\OneDrive\Документы\GitHub\housewarming78\housewarming78\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\nikit\Desktop\housewarming78\housewarming78
+build_property.MSBuildProjectDirectory = C:\Users\nikit\OneDrive\Документы\GitHub\housewarming78\housewarming78
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/nikit/Desktop/housewarming78/housewarming78/Areas/Admin/Views/Home/Index.cshtml]
+[C:/Users/nikit/OneDrive/Документы/GitHub/housewarming78/housewarming78/Areas/Admin/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/nikit/Desktop/housewarming78/housewarming78/Areas/Admin/Views/RealEstates/Edit.cshtml]
+[C:/Users/nikit/OneDrive/Документы/GitHub/housewarming78/housewarming78/Areas/Admin/Views/RealEstates/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcUmVhbEVzdGF0ZXNcRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/nikit/Desktop/housewarming78/housewarming78/Areas/Admin/Views/_ViewImports.cshtml]
+[C:/Users/nikit/OneDrive/Документы/GitHub/housewarming78/housewarming78/Areas/Admin/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/nikit/Desktop/housewarming78/housewarming78/Areas/Admin/Views/_ViewStart.cshtml]
+[C:/Users/nikit/OneDrive/Документы/GitHub/housewarming78/housewarming78/Areas/Admin/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/nikit/Desktop/housewarming78/housewarming78/Views/Account/Login.cshtml]
+[C:/Users/nikit/OneDrive/Документы/GitHub/housewarming78/housewarming78/Views/Account/Login.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxMb2dpbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/nikit/Desktop/housewarming78/housewarming78/Views/Home/Index.cshtml]
+[C:/Users/nikit/OneDrive/Документы/GitHub/housewarming78/housewarming78/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/nikit/Desktop/housewarming78/housewarming78/Views/Services/Index.cshtml]
+[C:/Users/nikit/OneDrive/Документы/GitHub/housewarming78/housewarming78/Views/Services/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2VydmljZXNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/nikit/Desktop/housewarming78/housewarming78/Views/Services/Show.cshtml]
+[C:/Users/nikit/OneDrive/Документы/GitHub/housewarming78/housewarming78/Views/Services/Show.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2VydmljZXNcU2hvdy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/nikit/Desktop/housewarming78/housewarming78/Views/Shared/Components/Email/Default.cshtml]
+[C:/Users/nikit/OneDrive/Документы/GitHub/housewarming78/housewarming78/Views/Shared/Components/Email/Default.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcRW1haWxcRGVmYXVsdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/nikit/Desktop/housewarming78/housewarming78/Views/Shared/Components/RealEstateSerch/Default.cshtml]
+[C:/Users/nikit/OneDrive/Документы/GitHub/housewarming78/housewarming78/Views/Shared/Components/RealEstateSerch/Default.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcUmVhbEVzdGF0ZVNlcmNoXERlZmF1bHQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/nikit/Desktop/housewarming78/housewarming78/Views/Shared/Components/Serch/Default.cshtml]
+[C:/Users/nikit/OneDrive/Документы/GitHub/housewarming78/housewarming78/Views/Shared/Components/Serch/Default.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcU2VyY2hcRGVmYXVsdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/nikit/Desktop/housewarming78/housewarming78/Views/Shared/CssPartial.cshtml]
+[C:/Users/nikit/OneDrive/Документы/GitHub/housewarming78/housewarming78/Views/Shared/CssPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENzc1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/nikit/Desktop/housewarming78/housewarming78/Views/Shared/FooterPartial.cshtml]
+[C:/Users/nikit/OneDrive/Документы/GitHub/housewarming78/housewarming78/Views/Shared/FooterPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEZvb3RlclBhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/nikit/Desktop/housewarming78/housewarming78/Views/Shared/HeaderPartial.cshtml]
+[C:/Users/nikit/OneDrive/Документы/GitHub/housewarming78/housewarming78/Views/Shared/HeaderPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEhlYWRlclBhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/nikit/Desktop/housewarming78/housewarming78/Views/Shared/MetatagsPartial.cshtml]
+[C:/Users/nikit/OneDrive/Документы/GitHub/housewarming78/housewarming78/Views/Shared/MetatagsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXE1ldGF0YWdzUGFydGlhbC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/nikit/Desktop/housewarming78/housewarming78/Views/Shared/ScriptPartial.cshtml]
+[C:/Users/nikit/OneDrive/Документы/GitHub/housewarming78/housewarming78/Views/Shared/ScriptPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXFNjcmlwdFBhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/nikit/Desktop/housewarming78/housewarming78/Views/Shared/_Layout.cshtml]
+[C:/Users/nikit/OneDrive/Документы/GitHub/housewarming78/housewarming78/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/nikit/Desktop/housewarming78/housewarming78/Views/_ViewImports.cshtml]
+[C:/Users/nikit/OneDrive/Документы/GitHub/housewarming78/housewarming78/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/nikit/Desktop/housewarming78/housewarming78/Views/_ViewStart.cshtml]
+[C:/Users/nikit/OneDrive/Документы/GitHub/housewarming78/housewarming78/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 

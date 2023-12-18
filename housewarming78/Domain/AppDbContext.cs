@@ -36,12 +36,12 @@ namespace housewarming78.Domain
             modelBuilder.Entity<IdentityUser>().HasData(new IdentityUser
             {
                 Id = "3b62472e-4f66-49fa-a20f-e7685b9565d8",
-                UserName = "admin",
+                UserName = "ct03268",
                 NormalizedUserName = "ADMIN",
                 Email = "my@email.com",
                 NormalizedEmail = "MY@EMAIL.COM",
                 EmailConfirmed = true,
-                PasswordHash = new PasswordHasher<IdentityUser>().HashPassword(null, "admin"),
+                PasswordHash = new PasswordHasher<IdentityUser>().HashPassword(null, "giVp7$Wt0NgP"),
                 SecurityStamp = string.Empty
             });
 

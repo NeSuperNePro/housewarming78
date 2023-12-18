@@ -16,7 +16,7 @@ namespace housewarming78.Domain
             {
                 MimeMessage message = new MimeMessage();
                 message.From.Add(new MailboxAddress(Config.CompnyName, "nesupernepro@yandex.ru"));
-                message.To.Add(new MailboxAddress("", "nesupernepro@yandex.ru"));
+                message.To.Add(new MailboxAddress("", Config.CompnyEmail));
                 message.Subject = "Mail service - " + Config.CompnyName;
                 message.Body = new BodyBuilder()
                 {

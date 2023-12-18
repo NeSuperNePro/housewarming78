@@ -11530,11 +11530,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\nikit\\Desktop\\housewarming78\\housewarming78\\housewarming78.csproj",
+      "projectUniqueName": "C:\\Users\\nikit\\OneDrive\\Документы\\GitHub\\housewarming78\\housewarming78\\housewarming78.csproj",
       "projectName": "housewarming78",
-      "projectPath": "C:\\Users\\nikit\\Desktop\\housewarming78\\housewarming78\\housewarming78.csproj",
+      "projectPath": "C:\\Users\\nikit\\OneDrive\\Документы\\GitHub\\housewarming78\\housewarming78\\housewarming78.csproj",
       "packagesPath": "C:\\Users\\nikit\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\nikit\\Desktop\\housewarming78\\housewarming78\\obj\\",
+      "outputPath": "C:\\Users\\nikit\\OneDrive\\Документы\\GitHub\\housewarming78\\housewarming78\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

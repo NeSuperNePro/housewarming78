@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Q+5a8JTOO8iC/eUcGX9gR5RHl9UCUXJZkHEIZwrXJA5nHw4cGgODsZ/c5YZKG0n3vmeiKOJB3YbIKxWAEA5LhQ==",
+  "dgSpecHash": "sjonMiOfgR6feUgDVPQSmmoVY72H+cdTLssQGxaIA/JQDTbLYCrZjrn960AG3MrFApI6Tpm8jIWedXdzIZbx2A==",
   "success": true,
-  "projectFilePath": "C:\\Users\\nikit\\Desktop\\housewarming78\\housewarming78\\housewarming78.csproj",
+  "projectFilePath": "C:\\Users\\nikit\\OneDrive\\Документы\\GitHub\\housewarming78\\housewarming78\\housewarming78.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\nikit\\.nuget\\packages\\azure.core\\1.25.0\\azure.core.1.25.0.nupkg.sha512",
     "C:\\Users\\nikit\\.nuget\\packages\\azure.identity\\1.7.0\\azure.identity.1.7.0.nupkg.sha512",
